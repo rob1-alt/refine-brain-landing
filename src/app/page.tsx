@@ -17,12 +17,9 @@ export default function ManifestoPage() {
             refine
           </span>
         </div>
-        <a
-          href='https://getrefine.ai'
-          className='refined-underline text-[12.5px] font-medium text-[#6B6560] hover:text-[#1A1A1A]'
-        >
-          getrefine.ai →
-        </a>
+        <span className='text-[12.5px] font-medium uppercase tracking-[0.08em] text-[#B5AFA8]'>
+          Manifesto
+        </span>
       </header>
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
@@ -157,16 +154,8 @@ export default function ManifestoPage() {
               © {new Date().getFullYear()} Refine
             </span>
           </div>
-          <div className='flex items-center gap-5 text-[12px] text-[#8A837C]'>
-            <a href='https://getrefine.ai' className='refined-underline hover:text-[#1A1A1A]'>
-              getrefine.ai
-            </a>
-            <a
-              href='mailto:team@getrefine.ai'
-              className='refined-underline hover:text-[#1A1A1A]'
-            >
-              team@getrefine.ai
-            </a>
+          <div className='text-[12px] uppercase tracking-[0.08em] text-[#B5AFA8]'>
+            Manifesto
           </div>
         </div>
       </footer>
